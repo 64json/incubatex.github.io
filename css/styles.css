@@ -41,3 +41,12 @@ h4.tagline {
         height: 90vh;
     }
 }
+
+img.logo {
+    height: 30px;
+    padding-top: 5px;
+}
+
+nav {
+    background: #000000;
+}
