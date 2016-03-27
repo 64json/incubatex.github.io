@@ -64,3 +64,10 @@ sr.reveal('.appear', appear);
 sr.reveal('.slide', slide);
 sr.reveal('.slide-left', slideLeft);
 sr.reveal('.slide-right', slideRight);
+
+window.onblur = function () {
+    document.title = "Hey! Come back!";
+}
+window.onfocus = function () {
+    document.title = "IncubateX";
+}
