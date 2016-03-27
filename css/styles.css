@@ -1,25 +1,32 @@
+body {
+    background: black;
+}
+
 h4.tagline {
     color: whitesmoke;
-    text-shadow: 0px 1px 1px gray;
+    text-shadow: 0px 1px 1px #696969;
     font-family: Montserrat;
 }
 
-.section {
+.transition {
     position: relative;
     height: auto;
     width: 100%;
-    background: #FFFFFD;
+    background: black;
     padding-bottom: 7vh;
+    color: #FCFDFF;
+    font-family: montserrat;
+    font-weight: 200;
 }
 
-.section:before {
+.transition:before {
     content: "";
     position: absolute;
     bottom: 100%;
     left: 0;
     border-style: solid;
     border-width: 0 0 60px 100vw;
-    border-color: transparent transparent #FFFFFD;
+    border-color: transparent transparent black;
 }
 
 @media screen and (min-width: 300px) {
@@ -49,4 +56,8 @@ img.logo {
 
 nav {
     background: #000000;
+}
+
+h4.heading {
+    font-family: Oswald;
 }
