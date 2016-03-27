@@ -9,24 +9,42 @@ h4.tagline {
     font-family: Montserrat;
 }
 
-.transition {
-    position: relative;
-    height: auto;
-    width: 100%;
-    background: #FCFDFF;
-    padding-bottom: 7vh;
+.quote {
     color: black;
-    font-weight: 200;
+    margin: 50px 0;
+    padding: 20% 20px;
+    text-align: center;
 }
 
-.transition:before {
-    content: "";
-    position: absolute;
-    bottom: 100%;
+.diagonal {
+    background: #FCFDFF;
+    position: relative;
+    z-index: 1;
+}
+
+.diagonal:before,
+.diagonal:after {
+    background: inherit;
+    content: '';
+    display: block;
+    height: 50%;
     left: 0;
-    border-style: solid;
-    border-width: 0 0 60px 100vw;
-    border-color: transparent transparent #FCFDFF;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden;
+}
+
+.diagonal:before {
+    top: 0;
+    transform: skewY(3deg);
+    transform-origin: 100%;
+}
+
+.diagonal:after {
+    bottom: 0;
+    transform: skewY(-3deg);
+    transform-origin: 100%;
 }
 
 @media screen and (min-width: 300px) {
