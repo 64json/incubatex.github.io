@@ -1,5 +1,6 @@
 body {
     background: black;
+    font-family: montserrat;
 }
 
 h4.tagline {
@@ -12,10 +13,9 @@ h4.tagline {
     position: relative;
     height: auto;
     width: 100%;
-    background: #FCFDFF;
+    background: black;
     padding-bottom: 7vh;
-    color: black;
-    font-family: montserrat;
+    color: #FCFDFF;
     font-weight: 200;
 }
 
@@ -26,7 +26,7 @@ h4.tagline {
     left: 0;
     border-style: solid;
     border-width: 0 0 60px 100vw;
-    border-color: transparent transparent #FCFDFF;
+    border-color: transparent transparent black;
 }
 
 @media screen and (min-width: 300px) {
