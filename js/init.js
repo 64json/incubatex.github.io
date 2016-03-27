@@ -64,8 +64,3 @@ sr.reveal('.appear', appear);
 sr.reveal('.slide', slide);
 sr.reveal('.slide-left', slideLeft);
 sr.reveal('.slide-right', slideRight);
-sr.reveal('.dividero', divider);
-
-$('h4.tagline').flowtype({
-    fontRatio: 24
-});
