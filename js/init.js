@@ -95,11 +95,27 @@ var special = {  
       prefix: '',
       suffix: '+'
 };
-var demo = new CountUp("counter1", 0, 3000, 0, 0.75, special);
-demo.start();
-var demo2 = new CountUp("counter2", 0, 16, 0, 0.75, options);
-demo2.start();
-var demo3 = new CountUp("counter3", 0, 30, 0, 0.75, options);
-demo3.start();
-var demo4 = new CountUp("counter4", 0, 1, 0, 0.75, options);
-demo4.start();
+
+
+
+function countUp() {
+    var demo = new CountUp("counter1", 0, 3000, 0, 0.75, special);
+    demo.start();
+    var demo2 = new CountUp("counter2", 0, 16, 0, 0.75, options);
+    demo2.start();
+    var demo3 = new CountUp("counter3", 0, 30, 0, 0.75, options);
+    demo3.start();
+    var demo4 = new CountUp("counter4", 0, 1, 0, 0.75, options);
+    demo4.start();
+}
+
+countUp();
+
+var options = [
+    {
+        selector: '#counter1',
+        offset: 0,
+        callback: 'countUp()'
+    }
+  ];
+Materialize.scrollFire(options);
