@@ -80,13 +80,22 @@ var easingFn = function (t, b, c, d) {
 var options = {  
     useEasing: true,
       easingFn: easingFn,
-      useGrouping: true,
+      useGrouping: false,
       separator: ',',
       decimal: '.',
       prefix: '',
       suffix: ''
 };
-var demo = new CountUp("counter1", 0, 3000, 0, 0.75, options);
+var special = {  
+    useEasing: true,
+      easingFn: easingFn,
+      useGrouping: false,
+      separator: ',',
+      decimal: '.',
+      prefix: '',
+      suffix: '+'
+};
+var demo = new CountUp("counter1", 0, 3000, 0, 0.75, special);
 demo.start();
 var demo2 = new CountUp("counter2", 0, 16, 0, 0.75, options);
 demo2.start();
