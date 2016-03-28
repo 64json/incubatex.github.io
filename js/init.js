@@ -71,3 +71,26 @@ window.onblur = function () {
 window.onfocus = function () {
     document.title = "IncubateX";
 }
+
+var easingFn = function (t, b, c, d) {
+    var ts = (t /= d) * t;
+    var tc = ts * t;
+    return b + c * (tc + -3 * ts + 3 * t);
+}
+var options = {  
+    useEasing: true,
+      easingFn: easingFn,
+      useGrouping: true,
+      separator: ',',
+      decimal: '.',
+      prefix: '',
+      suffix: ''
+};
+var demo = new CountUp("counter1", 0, 3000, 0, 0.75, options);
+demo.start();
+var demo2 = new CountUp("counter2", 0, 16, 0, 0.75, options);
+demo2.start();
+var demo3 = new CountUp("counter3", 0, 30, 0, 0.75, options);
+demo3.start();
+var demo4 = new CountUp("counter4", 0, 1, 0, 0.75, options);
+demo4.start();
