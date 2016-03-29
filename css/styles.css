@@ -145,6 +145,7 @@ stylesheet. */
 .cardpage {
     background-color: #fff;
     font-weight: 200;
+    padding: 10px;
 }
 
 .cardpage h1 {}
