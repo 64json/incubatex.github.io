@@ -102,9 +102,10 @@ stylesheet. */
 .lnr {
     display: inline-block;
     fill: currentColor;
-    width: 1em;
-    height: 1em;
-    vertical-align: 5em;
+    width: 3.25em;
+    height: 3.25em;
+    margin-top: 20px;
+    margin-bottom: -5px;
 }
 
 .lnr-menu {
@@ -121,6 +122,9 @@ stylesheet. */
   designed on a 20 by 20 grid. */
     position: relative;
     top: 10px;
+    vertical-align: 5em;
+    width: 1em;
+    height: 1em;
 }
 
 #counter1,
@@ -138,10 +142,18 @@ stylesheet. */
     position: relative;
 }
 
-.cardpage{
+.cardpage {
     background-color: #fff;
+    font-weight: 200;
 }
 
-.cardpage h1{
-    
+.cardpage h1 {}
+
+.section-heading {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-content {
+    color: red;
 }
