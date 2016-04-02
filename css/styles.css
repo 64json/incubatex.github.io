@@ -166,3 +166,7 @@ stylesheet. */
 .card-content {
     color: red;
 }
+
+#topPad {
+    padding-top: 100px;
+}
