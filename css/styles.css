@@ -1,6 +1,13 @@
 body {
     background: black;
     font-family: montserrat;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 h4.tagline {
@@ -104,8 +111,7 @@ stylesheet. */
     fill: currentColor;
     width: 3.25em;
     height: 3.25em;
-    margin-top: 20px;
-    margin-bottom: -5px;
+    padding: 20px;
 }
 
 .lnr-menu {
@@ -125,6 +131,8 @@ stylesheet. */
     vertical-align: 5em;
     width: 1em;
     height: 1em;
+    background-image: url(../img/lnr-menu.png);
+    background-size: cover;
 }
 
 #counter1,
