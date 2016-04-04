@@ -78,7 +78,7 @@ var easingFn = function (t, b, c, d) {
     return b + c * (tc + -3 * ts + 3 * t);
 }
 var options = {  
-    useEasing: true,
+    useEasing: false,
       easingFn: easingFn,
       useGrouping: false,
       separator: ',',
@@ -87,7 +87,7 @@ var options = {  
       suffix: ''
 };
 var special = {  
-    useEasing: true,
+    useEasing: false,
       easingFn: easingFn,
       useGrouping: false,
       separator: ',',
@@ -99,23 +99,23 @@ var special = {  
 
 
 function countUp() {
-    var demo = new CountUp("counter1", 0, 3000, 0, 0.75, special);
+    var demo = new CountUp("counter1", 0, 3000, 0, 0.7, special);
     demo.start();
-    var demo2 = new CountUp("counter2", 0, 16, 0, 0.75, options);
+    var demo2 = new CountUp("counter2", 0, 16, 0, 0.7, options);
     demo2.start();
-    var demo3 = new CountUp("counter3", 0, 30, 0, 0.75, options);
+    var demo3 = new CountUp("counter3", 0, 30, 0, 0.7, options);
     demo3.start();
-    var demo4 = new CountUp("counter4", 0, 1, 0, 0.75, options);
+    var demo4 = new CountUp("counter4", 0, 1, 0, 0.7, options);
     demo4.start();
 }
 
 countUp();
 
-var options = [
+var stuff = [
     {
         selector: '#counter1',
-        offset: 0,
+        offset: -200,
         callback: 'countUp()'
     }
   ];
-Materialize.scrollFire(options);
+Materialize.scrollFire(stuff);
