@@ -96,6 +96,21 @@ var special = {  
       suffix: '+'
 };
 
+var svgOne = new Vivus('svgOne', {
+        duration: 15,
+        animTimingFunction: Vivus.EASE,
+        type: 'delayed'
+    }),
+    svgTwo = new Vivus('svgTwo', {
+        duration: 15,
+        animTimingFunction: Vivus.EASE,
+        type: 'delayed'
+    }),
+    svgThree = new Vivus('svgThree', {
+        duration: 15,
+        animTimingFunction: Vivus.EASE,
+        type: 'delayed'
+    });
 
 
 function countUp() {
