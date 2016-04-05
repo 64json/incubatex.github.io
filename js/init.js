@@ -97,17 +97,14 @@ var special = {  
 };
 
 var svgOne = new Vivus('svgOne', {
-        duration: 45,
         animTimingFunction: Vivus.EASE,
         type: 'delayed'
     }),
     svgTwo = new Vivus('svgTwo', {
-        duration: 45,
         animTimingFunction: Vivus.EASE,
         type: 'delayed'
     }),
     svgThree = new Vivus('svgThree', {
-        duration: 45,
         animTimingFunction: Vivus.EASE,
         type: 'delayed'
     });
