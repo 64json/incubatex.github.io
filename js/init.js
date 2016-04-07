@@ -46,8 +46,7 @@ var easingFn = function (t, b, c, d) {
     return b + c * (tc + -3 * ts + 3 * t);
 }
 var options = {  
-    useEasing: false,
-      easingFn: easingFn,
+    useEasing: true,
       useGrouping: false,
       separator: ',',
       decimal: '.',
@@ -55,8 +54,7 @@ var options = {  
       suffix: ''
 };
 var special = {  
-    useEasing: false,
-      easingFn: easingFn,
+    useEasing: true,
       useGrouping: false,
       separator: ',',
       decimal: '.',
@@ -66,13 +64,13 @@ var special = {  
 
 
 function countUp() {
-    var demo = new CountUp("counter1", 0, 3000, 0, 0.5, special);
+    var demo = new CountUp("counter1", 0, 3000, 0, 3, special);
     demo.start();
-    var demo2 = new CountUp("counter2", 0, 16, 0, 0.5, options);
+    var demo2 = new CountUp("counter2", 0, 16, 0, 3, options);
     demo2.start();
-    var demo3 = new CountUp("counter3", 0, 30, 0, 0.5, options);
+    var demo3 = new CountUp("counter3", 0, 30, 0, 3, options);
     demo3.start();
-    var demo4 = new CountUp("counter4", 0, 1, 0, 0.5, options);
+    var demo4 = new CountUp("counter4", 0, 1, 0, 3, options);
     demo4.start();
 }
 
@@ -81,7 +79,7 @@ countUp();
 var stuff = [
     {
         selector: '#counter1',
-        offset: 0,
+        offset: -500,
         callback: 'countUp()'
     }
   ];
