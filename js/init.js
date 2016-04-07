@@ -22,16 +22,22 @@ window.onfocus = function () {
 }
 
 var svgOne = new Vivus('svgOne', {
-        animTimingFunction: Vivus.EASE,
-        type: 'async'
+        type: 'async',
+        duration: 10,
+        dashGap: 2,
+        forceRender: false
     }),
     svgTwo = new Vivus('svgTwo', {
-        animTimingFunction: Vivus.EASE,
-        type: 'async'
+        type: 'async',
+        duration: 10,
+        dashGap: 2,
+        forceRender: false
     }),
     svgThree = new Vivus('svgThree', {
-        animTimingFunction: Vivus.EASE,
-        type: 'async'
+        type: 'async',
+        duration: 10,
+        dashGap: 2,
+        forceRender: false
     });
 
 var easingFn = function (t, b, c, d) {
