@@ -2,7 +2,19 @@
     $(function () {
 
         $('.button-collapse').sideNav();
-        $('.parallax').parallax();
+        $('.parallax-containerp').parallax({
+            imageSrc: '../img/5.jpg',
+            iosFix: true,
+            androidFix: true,
+            speed: 0.0,
+            naturalWidth: 2000
+        });
+        $('.parallax-container').parallax({
+            imageSrc: '../img/10.jpg',
+            iosFix: true,
+            androidFix: true,
+            speed: 0.0
+        });
         $('.scrollspy').scrollSpy();
 
     }); // end of document ready
@@ -79,7 +91,7 @@ countUp();
 var stuff = [
     {
         selector: '#counter1',
-        offset: -500,
+        offset: -300,
         callback: 'countUp()'
     }
   ];
