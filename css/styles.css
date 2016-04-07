@@ -171,3 +171,8 @@ stylesheet. */
 #topPad {
     padding-top: 100px;
 }
+
+.addPad {
+    padding-top: 25px;
+    margin-top: 50px;
+}

@@ -14,63 +14,25 @@ $('.button-collapse').sideNav({
 });
 
 
-var appear = {
-    reset: false,
-    delay: 0,
-    distance: '10vw',
-    easing: 'ease-in-out',
-    scale: 0.1
-};
-
-
-var slide = {
-    reset: false,
-    origin: 'bottom',
-    delay: 0,
-    distance: '10vw',
-    easing: 'cubic-bezier(0.785, 0.135, 0.15, 0.86)',
-    scale: 0.1
-};
-
-var slideLeft = {
-    reset: false,
-    origin: 'left',
-    delay: 0,
-    distance: '10vw',
-    easing: 'cubic-bezier(0.785, 0.135, 0.15, 0.86)',
-    scale: 1
-};
-
-var slideRight = {
-    reset: false,
-    origin: 'right',
-    delay: 0,
-    distance: '10vw',
-    easing: 'cubic-bezier(0.785, 0.135, 0.15, 0.86)',
-    scale: 1
-};
-
-var divider = {
-    reset: false,
-    delay: 0,
-    distance: '10vw',
-    easing: 'cubic-bezier(0.68, -0.55, 0.265, 1.55)',
-    scale: 0.05
-};
-
-// JavaScript
-window.sr = ScrollReveal();
-sr.reveal('.appear', appear);
-sr.reveal('.slide', slide);
-sr.reveal('.slide-left', slideLeft);
-sr.reveal('.slide-right', slideRight);
-
 window.onblur = function () {
     document.title = "Hey! Come back!";
 }
 window.onfocus = function () {
     document.title = "IncubateX";
 }
+
+var svgOne = new Vivus('svgOne', {
+        animTimingFunction: Vivus.EASE,
+        type: 'async'
+    }),
+    svgTwo = new Vivus('svgTwo', {
+        animTimingFunction: Vivus.EASE,
+        type: 'async'
+    }),
+    svgThree = new Vivus('svgThree', {
+        animTimingFunction: Vivus.EASE,
+        type: 'async'
+    });
 
 var easingFn = function (t, b, c, d) {
     var ts = (t /= d) * t;
@@ -96,28 +58,15 @@ var special = {  
       suffix: '+'
 };
 
-var svgOne = new Vivus('svgOne', {
-        animTimingFunction: Vivus.EASE,
-        type: 'delayed'
-    }),
-    svgTwo = new Vivus('svgTwo', {
-        animTimingFunction: Vivus.EASE,
-        type: 'delayed'
-    }),
-    svgThree = new Vivus('svgThree', {
-        animTimingFunction: Vivus.EASE,
-        type: 'delayed'
-    });
-
 
 function countUp() {
-    var demo = new CountUp("counter1", 0, 3000, 0, 0.7, special);
+    var demo = new CountUp("counter1", 0, 3000, 0, 0.5, special);
     demo.start();
-    var demo2 = new CountUp("counter2", 0, 16, 0, 0.7, options);
+    var demo2 = new CountUp("counter2", 0, 16, 0, 0.5, options);
     demo2.start();
-    var demo3 = new CountUp("counter3", 0, 30, 0, 0.7, options);
+    var demo3 = new CountUp("counter3", 0, 30, 0, 0.5, options);
     demo3.start();
-    var demo4 = new CountUp("counter4", 0, 1, 0, 0.7, options);
+    var demo4 = new CountUp("counter4", 0, 1, 0, 0.5, options);
     demo4.start();
 }
 
@@ -126,7 +75,7 @@ countUp();
 var stuff = [
     {
         selector: '#counter1',
-        offset: -200,
+        offset: 0,
         callback: 'countUp()'
     }
   ];
