@@ -2,19 +2,7 @@
     $(function () {
 
         $('.button-collapse').sideNav();
-        $('.parallax-containerp').parallax({
-            imageSrc: '../img/5.jpg',
-            iosFix: true,
-            androidFix: true,
-            speed: 0.0,
-            naturalWidth: 2000
-        });
-        $('.parallax-container').parallax({
-            imageSrc: '../img/10.jpg',
-            iosFix: true,
-            androidFix: true,
-            speed: 0.0
-        });
+        $('.parallax').parallax();
         $('.scrollspy').scrollSpy();
 
     }); // end of document ready
