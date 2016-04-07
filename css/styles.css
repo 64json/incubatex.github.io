@@ -164,7 +164,8 @@ stylesheet. */
 }
 
 .card-content {
-    color: red;
+    color: #3498db;
+    text-align: center;
 }
 
 #topPad {
