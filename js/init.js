@@ -79,7 +79,7 @@ countUp();
 var stuff = [
     {
         selector: '#counter1',
-        offset: -300,
+        offset: 0,
         callback: 'countUp()'
     }
   ];
