@@ -1,36 +1,42 @@
+.card-content,
+.numbers,
+.quote,
+.section-heading {
+    text-align: center
+}
+
 body {
-    background: black;
+    background: #000;
     font-family: montserrat;
     display: flex;
     min-height: 100vh;
-    flex-direction: column;
+    flex-direction: column
 }
 
 main {
-    flex: 1 0 auto;
+    flex: 1 0 auto
 }
 
 h4.tagline {
     color: #FCFDFF;
-    text-shadow: 0px 1px 1px #696969;
-    font-family: Montserrat;
+    text-shadow: 0 1px 1px #696969;
+    font-family: Montserrat
 }
 
 .quote {
-    color: black;
+    color: #000;
     margin: 50px 0;
-    padding: 20% 20px;
-    text-align: center;
+    padding: 20% 20px
 }
 
 .diagonal {
     background: #FCFDFF;
     position: relative;
-    z-index: 1;
+    z-index: 1
 }
 
-.diagonal:before,
-.diagonal:after {
+.diagonal:after,
+.diagonal:before {
     background: inherit;
     content: '';
     display: block;
@@ -39,100 +45,87 @@ h4.tagline {
     position: absolute;
     right: 0;
     z-index: -1;
-    -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden
 }
 
 .diagonal:before {
     top: 0;
     transform: skewY(3deg);
-    transform-origin: 100%;
+    transform-origin: 100%
 }
 
 .diagonal:after {
     bottom: 0;
     transform: skewY(-3deg);
-    transform-origin: 100%;
+    transform-origin: 100%
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width:300px) {
     .masthead {
-        height: 60vh;
+        height: 60vh
     }
     .second-parallax {
-        height: 750px;
+        height: 750px
     }
 }
 
-@media screen and (min-width: 660px) {
-    .masthead {
-        width: 100%;
-        height: 90vh;
-    }
-    .second-parallax {
-        height: 750px;
-    }
-}
-
-@media screen and (min-width: 992px) {
+@media screen and (min-width:660px) {
     .masthead {
         width: 100%;
-        height: 90vh;
+        height: 90vh
     }
     .second-parallax {
-        height: 500px;
+        height: 750px
+    }
+}
+
+@media screen and (min-width:992px) {
+    .masthead {
+        width: 100%;
+        height: 90vh
+    }
+    .second-parallax {
+        height: 500px
     }
 }
 
 img.logo {
     height: 30px;
-    padding-top: 5px;
+    padding-top: 5px
 }
 
 nav {
-    background: #000000;
+    background: #000
 }
 
 h4.heading,
 h5.game {
-    font-family: Oswald;
+    font-family: Oswald
 }
 
 h5.game {
     color: #FCFDFF;
-    margin-top: -10px;
+    margin-top: -10px
 }
-
-
-/* Add the following CSS block to your own
-stylesheet. */
 
 .lnr {
     display: inline-block;
     fill: currentColor;
     width: 3.25em;
     height: 3.25em;
-    padding: 20px;
+    padding: 20px
 }
 
 .lnr-menu {
     color: #FCFDFF;
-    /* We can use "color" for setting the color
-  of the SVG because we set its "fill" to
-  "currentColor" */
     font-size: 40px;
-    /* We can use "font-size" for changing the size
-  of the SVG because its width and height were
-  set 1em.
-  To get crisp results, use sizes that are
-  a multiple of 20; because Linearicons was
-  designed on a 20 by 20 grid. */
     position: relative;
     top: 10px;
     vertical-align: 5em;
     width: 1em;
     height: 1em;
     background-image: url(../img/lnr-menu.png);
-    background-size: cover;
+    background-size: cover
 }
 
 #counter1,
@@ -142,41 +135,37 @@ stylesheet. */
     display: inline-block;
     color: #FCFDFF;
     font-family: Montserrat;
-    font-size: 75px;
+    font-size: 75px
 }
 
 .numbers {
-    text-align: center;
-    position: relative;
+    position: relative
 }
 
 .cardpage {
     background-color: #fff;
     font-weight: 200;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.cardpage h1 {}
-
 .section-heading {
-    text-align: center;
-    padding: 20px;
+    padding: 20px
 }
 
 .card-content {
-    color: #3498db;
-    text-align: center;
+    color: #3498db
 }
 
 #topPad {
-    padding-top: 100px;
+    padding-top: 100px
 }
 
 .addPad {
     padding-top: 25px;
-    margin-top: 38px;
+    margin-top: 38px
 }
 
 .fa {
-    padding: 10px;
+    padding: 10px
 }
