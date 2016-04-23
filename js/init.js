@@ -20,7 +20,7 @@
     suffix: "+"
   };
 function countUp() {
-  var e = new CountUp("counter1", 0, 200, 0, 3, special);
+  var e = new CountUp("counter1", 0, 3000, 0, 3, special);
   e.start();
   var n = new CountUp("counter2", 0, 16, 0, 3, options);
   n.start();
