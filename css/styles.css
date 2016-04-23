@@ -7,14 +7,14 @@
 
 body {
     background: #000;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     min-height: 100vh;
     flex-direction: column
 }
 
 p{
-    font-family: 'Neuton', serif;
+    font-family: 'Roboto', serif;
 }
 
 main {
@@ -24,7 +24,7 @@ main {
 h4.tagline {
     color: #FCFDFF;
     text-shadow: 0 1px 1px #696969;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .quote {
@@ -104,7 +104,7 @@ nav {
 
 h4.heading,
 h5.game {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h5.game {
@@ -138,7 +138,7 @@ h5.game {
 #counter4 {
     display: inline-block;
     color: #FCFDFF;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 75px
 }
 
