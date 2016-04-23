@@ -73,6 +73,7 @@ h4.tagline {
     .second-parallax {
         height: 750px
     }
+
 }
 
 @media screen and (min-width:660px) {
@@ -83,6 +84,7 @@ h4.tagline {
     .second-parallax {
         height: 750px
     }
+
 }
 
 @media screen and (min-width:992px) {
@@ -93,6 +95,7 @@ h4.tagline {
     .second-parallax {
         height: 500px
     }
+
 }
 
 img.logo {
@@ -112,26 +115,6 @@ h5.game {
 h5.game {
     color: #FCFDFF;
     margin-top: -10px
-}
-
-.lnr {
-    display: inline-block;
-    fill: currentColor;
-    width: 3.25em;
-    height: 3.25em;
-    padding: 20px
-}
-
-.lnr-menu {
-    color: #FCFDFF;
-    font-size: 40px;
-    position: relative;
-    top: 10px;
-    vertical-align: 5em;
-    width: 1em;
-    height: 1em;
-    background-image: url(../img/lnr-menu.png);
-    background-size: cover
 }
 
 #counter1,
@@ -155,10 +138,6 @@ h5.game {
     padding-right: 20px;
 }
 
-.section-heading {
-    padding: 20px
-}
-
 .card-content {
     color: #3498db
 }
@@ -170,8 +149,4 @@ h5.game {
 .addPad {
     padding-top: 25px;
     margin-top: 38px
-}
-
-.fa {
-    padding: 10px
 }
