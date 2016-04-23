@@ -13,7 +13,7 @@ body {
     flex-direction: column
 }
 
-p{
+p {
     font-family: 'Roboto', serif;
     font-weight: 700;
 }
@@ -73,7 +73,6 @@ h4.tagline {
     .second-parallax {
         height: 750px
     }
-
 }
 
 @media screen and (min-width:660px) {
@@ -84,7 +83,6 @@ h4.tagline {
     .second-parallax {
         height: 750px
     }
-
 }
 
 @media screen and (min-width:992px) {
@@ -95,7 +93,6 @@ h4.tagline {
     .second-parallax {
         height: 500px
     }
-
 }
 
 img.logo {
@@ -150,6 +147,11 @@ h5.game {
     padding-top: 25px;
     margin-top: 38px
 }
+
 .menu-btn {
     padding-left: 30px;
+}
+
+.social {
+    padding-left: 5px;
 }
