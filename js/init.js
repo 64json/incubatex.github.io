@@ -1,5 +1,5 @@
 function countUp() {
-    var e = new CountUp("counter1", 0, 3e3, 0, 3, special);
+    var e = new CountUp("counter1", 0, 3000, 0, 3, special);
     e.start();
     var n = new CountUp("counter2", 0, 16, 0, 3, options);
     n.start();
@@ -13,29 +13,7 @@ function countUp() {
     })
 }(jQuery), $(".button-collapse").sideNav({
     closeOnClick: !0
-}), window.onblur = function () {
-    document.title = "Hey! Come back!"
-}, window.onfocus = function () {
-    document.title = "IncubateX"
-};
-var svgOne = new Vivus("svgOne", {
-        type: "async",
-        duration: 10,
-        dashGap: 2,
-        forceRender: !1
-    }),
-    svgTwo = new Vivus("svgTwo", {
-        type: "async",
-        duration: 10,
-        dashGap: 2,
-        forceRender: !1
-    }),
-    svgThree = new Vivus("svgThree", {
-        type: "async",
-        duration: 10,
-        dashGap: 2,
-        forceRender: !1
-    }),
+});
     easingFn = function (e, n, o, t) {
         var a = (e /= t) * e,
             s = a * e;
