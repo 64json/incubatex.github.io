@@ -34,11 +34,7 @@ function countUp() {
   })
 }(jQuery), $(".button-collapse").sideNav({
   closeOnClick: !0
-}), window.onblur = function() {
-  document.title = "Hey! Come back!"
-}, window.onfocus = function() {
-  document.title = "IncubateSF"
-};
+});
 countUp();
 var stuff = [{
   selector: "#counter1",
