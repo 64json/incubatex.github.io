@@ -94,7 +94,9 @@ h4.tagline {
         height: 500px
     }
 }
-
+.brand-logo {
+    opacity: 0;
+}
 img.logo {
     height: 30px;
     padding-top: 5px

@@ -52,4 +52,5 @@ $(window).scroll(function(event){
     $('nav').addClass('z-depth-0');
   var scale = Math.max(0, Math.min(1, scroll/$(window).height()));
   $('nav').css("background-color", "rgba(0, 0, 0, "+scale+")");
+  $('.brand-logo').css("opacity", scale);
 });
