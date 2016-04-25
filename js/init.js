@@ -42,3 +42,14 @@ var stuff = [{
   callback: "countUp()"
 }];
 Materialize.scrollFire(stuff);
+
+// navbar fade in
+$(window).scroll(function(event){
+  $('nav').removeClass('z-depth-0');
+  var scroll = $(window).scrollTop();
+
+  if(scroll <= 0)
+    $('nav').addClass('z-depth-0');
+  var scale = Math.max(0, Math.min(1, scroll/$(window).height()));
+  $('nav').css("background-color", "rgba(0, 0, 0, "+scale+")");
+});
