@@ -22,7 +22,7 @@
 function countUp() {
   var e = new CountUp("counter1", 0, 3000, 0, 3, special);
   e.start();
-  var n = new CountUp("counter2", 0, 16, 0, 3, options);
+  var n = new CountUp("counter2", 0, 17, 0, 3, options);
   n.start();
   var o = new CountUp("counter3", 0, 30, 0, 3, options);
   o.start();
