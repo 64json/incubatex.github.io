@@ -1619,64 +1619,64 @@
   color: transparent !important; }
 
 .colored {
-  background-color: #ff5722 !important; }
+  background-color: #e91f63 !important; }
 
 .colored-text {
-  color: #ff5722 !important; }
+  color: #e91f63 !important; }
 
 .colored.lighten-5 {
-  background-color: #ffdfd5 !important; }
+  background-color: #f9c2d4 !important; }
 
 .colored-text.text-lighten-5 {
-  color: #ffdfd5 !important; }
+  color: #f9c2d4 !important; }
 
 .colored.lighten-4 {
-  background-color: #ffc4b1 !important; }
+  background-color: #f6a1be !important; }
 
 .colored-text.text-lighten-4 {
-  color: #ffc4b1 !important; }
+  color: #f6a1be !important; }
 
 .colored.lighten-3 {
-  background-color: #ffa88d !important; }
+  background-color: #f381a7 !important; }
 
 .colored-text.text-lighten-3 {
-  color: #ffa88d !important; }
+  color: #f381a7 !important; }
 
 .colored.lighten-2 {
-  background-color: #ff8d69 !important; }
+  background-color: #ef6090 !important; }
 
 .colored-text.text-lighten-2 {
-  color: #ff8d69 !important; }
+  color: #ef6090 !important; }
 
 .colored.lighten-1 {
-  background-color: #ff7246 !important; }
+  background-color: #ec407a !important; }
 
 .colored-text.text-lighten-1 {
-  color: #ff7246 !important; }
+  color: #ec407a !important; }
 
 .colored.darken-1 {
-  background-color: #ee3900 !important; }
+  background-color: #c2134e !important; }
 
 .colored-text.text-darken-1 {
-  color: #ee3900 !important; }
+  color: #c2134e !important; }
 
 .colored.darken-2 {
-  background-color: #bb2d00 !important; }
+  background-color: #940e3b !important; }
 
 .colored-text.text-darken-2 {
-  color: #bb2d00 !important; }
+  color: #940e3b !important; }
 
 .colored.darken-3 {
-  background-color: #882100 !important; }
+  background-color: #650a29 !important; }
 
 .colored-text.text-darken-3 {
-  color: #882100 !important; }
+  color: #650a29 !important; }
 
 .colored.darken-4 {
-  background-color: #551400 !important; }
+  background-color: #370516 !important; }
 
 .colored-text.text-darken-4 {
-  color: #551400 !important; }
+  color: #370516 !important; }
 
 /* ==========================================================================
    Materialize variables
@@ -2178,7 +2178,7 @@ ul {
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
-  border-left: 5px solid #ff5722; }
+  border-left: 5px solid #e91f63; }
 
 i {
   line-height: inherit; }
@@ -2214,7 +2214,7 @@ video.responsive-video {
   .pagination li.active a {
     color: #fff; }
   .pagination li.active {
-    background-color: #ff5722; }
+    background-color: #e91f63; }
   .pagination li.disabled a {
     cursor: default;
     color: #999; }
@@ -2349,7 +2349,7 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: #ff5722; }
+  background-color: #e91f63; }
   footer.page-footer .footer-copyright {
     overflow: hidden;
     height: 50px;
@@ -3096,7 +3096,7 @@ input[type=range] + .thumb {
 
 nav {
   color: #fff;
-  background-color: #ff5722;
+  background-color: #e91f63;
   width: 100%;
   height: 56px;
   line-height: 56px; }
@@ -3547,7 +3547,7 @@ small {
     width: 15%;
     min-width: 80px; }
     .tabs .tab a {
-      color: #ff5722;
+      color: #e91f63;
       display: block;
       width: 100%;
       height: 100%;
@@ -3555,15 +3555,15 @@ small {
       overflow: hidden;
       transition: color .28s ease; }
       .tabs .tab a:hover {
-        color: #ffa588; }
+        color: #f27ca4; }
     .tabs .tab.disabled a {
-      color: #ffa588;
+      color: #f27ca4;
       cursor: default; }
   .tabs .indicator {
     position: absolute;
     bottom: 0;
     height: 2px;
-    background-color: #ff916f;
+    background-color: #f06594;
     will-change: left, right; }
 
 .material-tooltip {
@@ -5109,7 +5109,7 @@ input[type=range]:focus::-ms-fill-upper {
       transform: translateX(105%); } }
 .side-nav .collapsible-body li.active,
 .side-nav.fixed .collapsible-body li.active {
-  background-color: #ff5722; }
+  background-color: #e91f63; }
   .side-nav .collapsible-body li.active a,
   .side-nav.fixed .collapsible-body li.active a {
     color: #fff; }
@@ -6208,6 +6208,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .picker--time .picker__box {
     margin-bottom: 5em; } }
 a {
-  color: #ff8d69; }
+  color: #ef6090; }
 
 /*# sourceMappingURL=materialize.min.css.map */
